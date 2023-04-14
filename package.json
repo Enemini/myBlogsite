@@ -1,0 +1,31 @@
+{
+  "name": "myblogsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victoria ekefre",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.16.3",
+    "express-session": "^1.17.3",
+    "fetch": "^1.1.0",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "mongoose": "^7.0.3",
+    "mongoose-encryption": "^2.1.2",
+    "mongoose-findorcreate": "^3.0.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "underscore": "^1.13.6"
+  }
+}

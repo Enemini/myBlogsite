@@ -1,0 +1,27 @@
+<%- include("partials/header"); -%>
+
+<h1>Events</h1>
+
+<% if (events.length > 0) {
+  const pageSize = 5; // Change this to the desired number of items per page
+  const numPages = Math.ceil(events.length / pageSize);
+  const pages = pag.chunk(events, pageSize);
+
+  for (let i = 0; i < numPages; i++) { %>
+    <h2>Page <%= i + 1 %></h2>
+    <ul>
+      <% pages[i].forEach(event => { %>
+        <li>
+          <h3><%= event.name %></h3>
+          <p><%= event.description %></p>
+          <p><strong>Date:</strong> <%= event.date %></p>
+          <p><strong>Location:</strong> <%= event.location %></p>
+        </li>
+      <% }); %>
+    </ul>
+  <% }
+} else { %>
+  <p>No events found.</p>
+<% } %>
+
+</body>
