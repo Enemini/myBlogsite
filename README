@@ -1,0 +1,53 @@
+Project Name
+
+Blog Web Application
+Project Description
+
+This project is a blog web application that allows users to read and create blog posts. The application uses three APIs to provide additional functionality:
+
+    Google Authentication Service API: This API allows users to sign up and log in to the application using their Google account.
+
+    Messaging API: This API sends notifications to users when there is a new blog post on the application.
+
+    Event Listing API: This API provides updates about upcoming events for the blog users to participate if they wish.
+
+Installation
+
+To install and run this project, follow these steps:
+
+    Clone the repository: git clone https://github.com/your-username/blog-web-app.git
+
+    Install the required packages: npm install
+
+    Create a .env file and add the necessary environment variables for the APIs used in the application. The variables needed are:
+        GOOGLE_AUTH_API_KEY: Your Google Authentication Service API key.
+        MESSAGING_API_KEY: Your Messaging API key.
+        EVENT_LISTING_API_KEY: Your Event Listing API key.
+
+    Run the project: npm start
+
+Usage
+
+To use the application, follow these steps:
+
+    Sign up using your Google account.
+    Log in to the application.
+    View existing blog posts.
+    Create a new blog post.
+    Check for new blog post notifications.
+    Check for upcoming events.
+
+Contributing
+
+If you would like to contribute to this project, please follow these guidelines:
+
+    Fork the repository.
+    Create a new branch: git checkout -b new-branch-name
+    Make your changes.
+    Commit your changes: git commit -m "Description of your changes"
+    Push to the branch: git push origin new-branch-name
+    Create a pull request.
+
+License
+
+This project is licensed under the NCI License.
