@@ -10,9 +10,6 @@ This project is a blog web application that allows users to read and create blog
 
     Event Listing API: This API provides updates about upcoming events for blog users to participate if they wish.
 
-## Architectural Design
-
-
 
 Installation
 
