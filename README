@@ -1,7 +1,6 @@
-Project Name
+# Blog Web Application with API services
 
-Blog Web Application
-Project Description
+## Project Description
 
 This project is a blog web application that allows users to read and create blog posts. The application uses three APIs to provide additional functionality:
 
@@ -9,7 +8,11 @@ This project is a blog web application that allows users to read and create blog
 
     Messaging API: This API sends notifications to users when there is a new blog post on the application.
 
-    Event Listing API: This API provides updates about upcoming events for the blog users to participate if they wish.
+    Event Listing API: This API provides updates about upcoming events for blog users to participate if they wish.
+
+## Architectural Design
+
+
 
 Installation
 
